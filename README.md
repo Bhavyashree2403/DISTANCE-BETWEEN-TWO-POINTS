@@ -15,12 +15,20 @@ Print the restult in the format that two values after the decimal point.
 End the program.
 ### PROGRAM:
 ```
+#Distance between two points
+#Developed by: BHAVYASHREE .R
+#Register number: 212223110006
+import math
+list1=[4,2]
+list2=[10,6]
+distance=math.sqrt((list2[0]-list1[0])*2+(list2[1]-list1[1])*2)
+print("{:.2f}".format(distance))
 
 ```  
 
 ### OUTPUT:
 
-
+![alt text](image.png)
 
 ### RESULT:
 Thus the output for calculating the distance between two points is successfull.
